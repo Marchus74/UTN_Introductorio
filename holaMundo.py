@@ -67,4 +67,34 @@ division = primer_numero / segundo_numero
 print(f"La suma de los valores ingresados es = {suma} ")
 print(f"La resta de los valores ingresados es = {resta} ")
 print(f"La multiplicación de los valores ingresados es = {multiplicacion} ")
-print(f"La división de los valores ingresados es = {float (division} ")
+print(f"La división de los valores ingresados es = {float (division)} ")
+
+"""
+Ejercicio 8 IMC
+Crear un programa que pida al usuario su altura y su peso e imprima por pantalla su índice 
+de masa corporal.
+"""
+peso = float (input("ingresa tu peso en Kilos:"))
+altura = float (input("ingresa tu altura en Metros:"))
+imc = peso / (altura ** 2)
+print(f"si indice de masa corporal es = {float(imc)}")
+
+"""
+Ejercicio 9 Celsius a Fahrenheit
+ Crear un programa que pida al usuario una temperatura en grados Celsius e imprima por 
+pantalla su equivalente en grados Fahrenheit. Tener en cuenta la siguiente equivalencia: 
+"""
+temp_celsius = float (input("ingresa la temperatura en ºC :"))
+temp_fahrenheit = (9/5) * temp_celsius + 32
+print(f"El equivalente es = {float(temp_fahrenheit )}ºF")
+
+"""
+Ejercicio 10 suma resta ,ultiplicacion y división
+Crear un programa que pida al usuario  3 números e imprima por 
+pantalla el promedio de dichos números.
+"""
+primer_numero = int (input("ingresa un valor entero distinto de cero:"))
+segundo_numero = int (input("ingresa un valor entero distinto de cero:"))
+tercer_numero = int (input("ingresa un valor entero distinto de cero:"))
+promedio = (primer_numero + segundo_numero + tercer_numero) / 3
+print(f"El promedio de los 3 valores ingresado es = {float (promedio)} ")
