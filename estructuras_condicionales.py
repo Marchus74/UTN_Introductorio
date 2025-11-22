@@ -22,7 +22,7 @@ else:
     print("Desaprobado")
 
 """
-Ejercicio 3 "Es un numero Par"
+Ejercicio 3 "Es un numero Par "
 Escribir un programa que permita ingresar solo números pares.
 Si el usuario ingresa un número par, imprimir por en 
 pantalla el mensaje "Ha ingresado un número par"; en caso 
